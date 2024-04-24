@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>AshsMusicBlend</title>
+    <link rel="icon" type="image/x-icon" href="frog_music.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <a href="#main" class="skip-link">Skip to Main Content</a>
+    <header>
+        <nav>
+            <a href="home.html"><button class="home" tabindex="-1">Home</button></a>
+            <a href="songs.html"><button class="songs" tabindex="-1">Songs</button></a>
+            <a href="albums.html"><button class="albums" tabindex="-1">Albums</button></a>
+        </nav>
+    </header>
+    <main id="main">
+        <h1>Songs</h1>
+        <div class="about">
+            <p>Hey there! Welcome to my little slice of internet paradise where the music is always on point and full of
+                energy! </p>
+            <p>Take a musical journey with me and explore handpicked songs from different genres just by clicking on the
+                buttons below. Just one more easy click and you'll be transported to another world by an incredible song
+                in the same genre.</p>
+            <p>Click on one of the genre buttons below to listen to one of my favorite songs from that genre. Clicking
+                the button again will show you a different song from that genre.</p>
+        </div>
+        <div class="genres">
+            <button id="folk">Folk</button>
+            <button id="pop">Pop</button>
+            <button id="rock">Rock</button>
+            <button id="jazz">Jazz</button>
+            <button id="country">Country</button>
+            <button id="blues">Blues</button>
+        </div>
+        <br>
+
+        <div class="container">
+            <iframe id="spotify" title="Spotify Embed" style="border-radius:30px" src="" width="100%" height="152" frameborder="solid 10px"
+                framepadding="20px" framemargin="20px" allowfullscreen=""
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                loading="lazy"></iframe>
+        </div>
+    </main>
+    <footer>
+        <p>
+            &copy; 2024 Ashley Forward
+        </p>
+    </footer>
+    <script src="js/songs.js"></script>
+</body>
+
+</html>
